@@ -1,4 +1,4 @@
-import React, { FormEvent, useRef } from "react";
+import  { FormEvent, useRef } from "react";
 export type newGolasProps = {
   onAddGoal: (goal: string, summary: string) => void;
 };

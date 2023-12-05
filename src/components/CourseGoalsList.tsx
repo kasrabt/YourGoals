@@ -1,4 +1,4 @@
-import React from "react";
+
 import CourseGoals from "./CourseGoals";
 import { CourseGoal } from "../App";
 type CourseGoalstype = {
