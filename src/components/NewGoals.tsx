@@ -8,7 +8,7 @@ const NewGoals = ({ onAddGoal }: newGolasProps) => {
   const submitHandler = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const enteredGoal = goal.current!.value;
-    const enteredSummary = goal.current!.value;
+    const enteredSummary = summary.current!.value;
     if (enteredGoal.length === 0 || enteredSummary.length === 0) {
       return;
     }
